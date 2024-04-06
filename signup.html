@@ -3,51 +3,101 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Geeky game cafee, cafee in rijeka croatia">
-    <meta name="keywords" content="Game, Cafee, coffee, after school, club, role playing Game">
-
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Love Running. Club for runners in Dublin, Ireland. Urban running, trail running. Dublin docklands and Phoenix Park">
+    <meta name="keywords" content="love running, run, running club, runners, Ireland, Dublin, sport, exercise">
+    <!-- Title -->
+    <title>Love Running</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <!-- Stylesheet -->
-    <link href="../css/style.css" rel="stylesheet" type="text/css" />
-    
-    <title>One Dice Game Cafee</title>
-
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <a href="index.html">
             <h1 id="logo">One Dice</h1>
         </a>
+
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="signup.html">Sign Up</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
                     <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="signup.html">Sign Up</a>
                 </li>
 
             </ul>
         </nav>
     </header>
 
-    <main>main content</main>
+    <!-- Main content -->
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2> sign for our news letter and get a free gift!<i class="fa-solid fa-dice-d20"></i></h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <h2>What type of welcome gift would you like?</h2>
+                    </div>
+                    <div>
+                        <label for="gift">Dice set</label>
+                        <input type="radio" name="sign-up-gift" id="gift" value="dice" required checked>
+                    </div>
+                    <div>
+                        <label for="gift">Random miniature</label>
+                        <input type="radio" name="sign-up-gift" id="gift" value="random-miniature" required>
+                    </div>
+                    <button type="submit" class="join-button">Roll the dice</button>
+            </form>
+        </section>
+    </main>
 
+    <!-- Footer -->
     <footer>
-    <ul class="social-networks">
-        <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
-        <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
-    </ul>
-</footer>
-<!-- font awsome kit -->
-<script src="https://kit.fontawesome.com/a66f91cac5.js" crossorigin="anonymous"></script>
-    </body>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
 
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+</body>
 
 </html>

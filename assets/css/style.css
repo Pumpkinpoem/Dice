@@ -1,37 +1,67 @@
 
-/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-}
-
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-}
-
-
-/* Header */
-header {
-    background-color: lightcoral;
-}
-
-/* Main content */
-main {
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    background-color: lightsalmon;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    color: white;
+  }
+  
+  .header {
     background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-}
-
-/* Footer */
-footer {
-    background-color: orange;
-}
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 4px 0 rgb(250, 250, 250);
+    z-index: 1000;
+  }
+  
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    min-height: 60px;
+  }
+  
+  .nav {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav__list {
+    display: flex;
+    column-gap: 40px;
+  }
+  
+  .nav__item {
+    
+  }
+  
+  .nav__link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+    transition: all 0.4s;
+  }
+  
+  .nav__link:hover,
+  .nav__link:focus {
+    color: rgba(255, 255, 255, 1);
+  }
 
 
 
