@@ -106,7 +106,33 @@ main {
     color: rgba(3, 3, 3, 0.925);
 }
 
+/* info section */
+#info  {
+    width: 90%;
+    margin: 20px auto;
+}
 
+#info h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#game-night > div,
+#game-social > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#game p {
+    padding: 0 20px;
+}
+
+#game hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+
+}
 
 
 /* Form */
@@ -175,13 +201,6 @@ main {
     color: #3a3a3a;
 }
 
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
