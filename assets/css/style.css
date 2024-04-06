@@ -1,162 +1,287 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-  }
-  
-  ul {
-    list-style: none;
-  }
-  
-  a {
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.hidden-heading {
+    display: none;
+}
+
+/* Header */
+header {
+    background-color: lightsalmon;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
     text-decoration: none;
     color: inherit;
-  }
-  
-  body {
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
     background-color: lightsalmon;
-    height: auto;
-    padding-bottom: 60px;
-    padding-top: 60px;
-    color: white;
-  }
-  
-  .header {
-    background-color: lightblue;
-    position: fixed;
     width: 100%;
-    top: 0;
-    box-shadow: 0 0 4px 0 rgb(250, 250, 250);
-    z-index: 1000;
-  }
-  
-  .header__content {
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 47px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/fox-hyde-XgPf6yNdppI-unsplash.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    /* Final rgba value sets the opacity so it is semi-transparent */
+    background-color: rgba(43, 148, 61, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: rgba(3, 3, 3, 0.925);
+}
+
+
+
+
+/* Form */
+#signup {
+    background-image: url("../images/gian-luca-riner-eubgK-4bzKA-unsplash.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+
+#signup-form {
+    color: rgba(3, 3, 3, 0.925);
+    background-color: rgba(43, 148, 61, 0.7);
+    padding: 30px;
+}
+
+
+#signup-form>h2 {
+    color: rgba(3, 3, 3, 0.925);
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    padding: 0 30px;
-    min-height: 60px;
-  }
-  
-  .nav {
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .nav__list {
+}
+
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgba(43, 148, 61, 0.7);
+    color: whitesmoke;
+}
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
-    column-gap: 40px;
-  }
-  
-  .nav__item {
-    
-  }
-  
-  .nav__link {
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 20px;
-    transition: all 0.4s;
-  }
-  
-  .nav__link:hover,
-  .nav__link:focus {
-    color: rgba(255, 255, 255, 1);
-  }
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-/* Media queries */
-
-/* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin-top: 0;
+    #menu {
+        display: flex;
     }
 
-    #left-about, #right-about {
-        width:100%;
-        float:left;
-        padding: 0;
+    #menu > li {
+        padding-left: 1rem;
     }
 
-    #center-about{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
+    .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+    /* Form */
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 }
 
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px; 
-        margin-bottom: 20px;
-        line-height: 25px;
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 
-    #cover-text{
-        left:0px;
-    }
-
-    #club-ethos{
-        width:90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    .left-about-heading, .right-about-heading{
-        width: inherit;
-    }
-
-    .left-about-heading h2, .right-about-heading h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p{
-        text-align: center;
-        padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
+    /* Gallery */
+    #photos {
+        column-count: 4;
     }
 }
 
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
+@media screen and (min-width: 1200px) {    
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
     }
 }
