@@ -18,16 +18,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(0, 0, 0);
 }
 
-.hidden-heading {
-    display: none;
-}
+
 
 /* Header */
 header {
@@ -68,9 +66,22 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px black;
     display: none;
     top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main content */
@@ -80,6 +91,11 @@ main {
     margin-top: 47px;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    background-color: lightsalmon;
+    width: 100%;
 }
 
 /* Hero section */
@@ -92,7 +108,7 @@ main {
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(43, 148, 61, 0.7);
+    background-color: rgba(43, 148, 61, 0.932);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -129,7 +145,7 @@ main {
 }
 
 #game hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid black;
     margin: 5px 0;
 
 }
@@ -147,7 +163,7 @@ main {
 
 #signup-form {
     color: rgba(3, 3, 3, 0.925);
-    background-color: rgba(43, 148, 61, 0.7);
+    background-color: rgba(43, 148, 61, 0.932);
     padding: 30px;
 }
 
@@ -199,6 +215,11 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+footer {
+    background-color: lightsalmon;
+    width: 100%;
 }
 
 
@@ -274,33 +295,5 @@ main {
     /* Gallery */
     #photos {
         column-count: 4;
-    }
-}
-
-@media screen and (min-width: 1200px) {    
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits > div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental > div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical > div {
-        align-self: flex-end;
     }
 }
