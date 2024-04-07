@@ -1,7 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Reset Styles */
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -22,10 +21,8 @@ h1, h2, h3, p {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgb(0, 0, 0);
+    color: #000;
 }
-
-
 
 /* Header */
 header {
@@ -86,14 +83,10 @@ nav {
 
 /* Main content */
 main {
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
     display: flex;
     flex-direction: column;
-}
-
-main {
     background-color: lightsalmon;
     width: 100%;
 }
@@ -107,7 +100,6 @@ main {
 }
 
 #cover-text {
-    /* Final rgba value sets the opacity so it is semi-transparent */
     background-color: rgba(43, 148, 61, 0.932);
     font-size: 130%;
     position: absolute;
@@ -122,8 +114,8 @@ main {
     color: rgba(3, 3, 3, 0.925);
 }
 
-/* info section */
-#info  {
+/* Info section */
+#info {
     width: 90%;
     margin: 20px auto;
 }
@@ -147,9 +139,7 @@ main {
 #game hr {
     border-top: 1px solid black;
     margin: 5px 0;
-
 }
-
 
 /* Form */
 #signup {
@@ -160,38 +150,33 @@ main {
     flex-grow: 1;
 }
 
-
 #signup-form {
     color: rgba(3, 3, 3, 0.925);
     background-color: rgba(43, 148, 61, 0.932);
     padding: 30px;
 }
 
-
-#signup-form>h2 {
+#signup-form > h2 {
     color: rgba(3, 3, 3, 0.925);
     margin-bottom: 20px;
 }
 
-
 .text-input {
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: #000;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px 0;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #000;
     border-radius: 2px;
     padding: 0 5px;
 }
-
 
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-
 
 .join-button {
     margin-top: 20px;
@@ -222,10 +207,8 @@ footer {
     width: 100%;
 }
 
-
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    /* Header */
     nav {
         display: block;
         position: relative;
@@ -252,9 +235,7 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
 
@@ -263,6 +244,7 @@ footer {
         width: 300px;
         right: 50px;
     }
+
     /* Form */
     #signup {
         background-position: center;
@@ -288,12 +270,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-    }
-
-    /* Gallery */
-    #photos {
-        column-count: 4;
     }
 }
