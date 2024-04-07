@@ -21,7 +21,7 @@ h1, h2, h3, p {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #000;
+    color: #3a3a3a; /* Adjusted to match surrounding color */
 }
 
 /* Header */
@@ -53,7 +53,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a; /* Adjusted to match surrounding color */
 }
 
 /* Navbar styles with dropdown toggle */
@@ -137,7 +137,7 @@ main {
 }
 
 #game hr {
-    border-top: 1px solid black;
+    border-top: 1px solid transparent; /* Adjusted to be transparent */
     margin: 5px 0;
 }
 
