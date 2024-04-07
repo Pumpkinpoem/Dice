@@ -24,6 +24,14 @@ h1, h2, h3, p {
     color: #3a3a3a; /* Adjusted to match surrounding color */
 }
 
+p {
+    font-weight: bold;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /* Header */
 header {
     background-color: lightsalmon;
@@ -104,7 +112,8 @@ main {
     font-size: 130%;
     position: absolute;
     bottom: 30px;
-    width: 80%;
+    left: 10px; 
+    width: calc(100% - 20px);
     min-height: 200px;
     padding-top: 40px;
     padding-left: 10px;
@@ -137,7 +146,7 @@ main {
 }
 
 #game hr {
-    border-top: 1px solid transparent; /* Adjusted to be transparent */
+    border-top: 1px solid transparent; 
     margin: 5px 0;
 }
 
