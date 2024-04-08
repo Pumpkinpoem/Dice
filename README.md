@@ -1,39 +1,93 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# One Dice
 
-Welcome,
+One Dice is a geek cafe where you can play tabletop games and drink amazing beverages. We strive to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Mockup](assets/images/readme/Capture.PNG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features 
 
-## Codeanywhere Reminders
+In this section, you should go over the different parts of your project and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what they want to achieve, and how your project is the best way to help them achieve these things.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __Navigation Bar__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  - Featured on both pages, the fully responsive navigation bar includes links to the Home page and Sign Up page. It is identical on each page to allow for easy navigation.
+  - This section allows users to navigate easily across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Nav Bar](assets/images/readme/navbar.PNG)
 
-`http_server`
+- __Landing Page Image__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - The landing page includes a photograph with text overlay to allow users to see exactly which location this site would be applicable to. 
+  - This section introduces users to One Dice with an eye-catching animation to grab their attention.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Landing Page](assets/images/readme/landingpage.PNG)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __Welcome Section__
 
-To log into the Heroku toolbelt CLI:
+  - The footer section includes links to the relevant social media sites for One Dice. The links will open in a new tab to allow easy navigation for users.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Welcome](assets/images/readme/welcome.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __Footer__ 
 
----
+  - The footer section includes links to the relevant social media sites for One Dice. The links will open in a new tab to allow easy navigation for users. 
 
-Happy coding!
+![Footer](assets/images/readme/footer.PNG)
+
+- __Sign Up Page__
+
+  - This page allows users to sign up for One Dice's email list. For first-time registration, users can choose one of two dice sets as a welcome gift.
+
+![Sign Up](assets/images/readme/signup.PNG)
+
+### Features Left to Implement
+
+- Gallery page for live events and a quiz form for fun.
+
+## Testing 
+
+- Admin Tools: I used Admin tools to review the code and ensure that it was working as intended on both the test site and the deployed site.
+- Cross-Browser Compatibility Testing: I tested the code on various web browsers (e.g., Chrome, Firefox, Safari, Edge) to ensure compatibility and consistent performance across different platforms.
+- Responsive Design Testing: I checked the responsiveness of the website by testing it on different devices (desktop, tablet, mobile) to ensure proper rendering and usability across various screen sizes.
+- User Experience Testing: I conducted usability testing to evaluate the overall user experience, including navigation, interaction flow, and accessibility features.
+
+### Validator Testing 
+
+- HTML:
+  - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2Fsignup.html).
+- CSS:
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2Findex.html&usermedium=all&vextwarning=&warning=1).
+
+### Unfixed Bugs
+
+- I have not fixed the validator error for the Alt text.
+- The white lines on the Welcome section are supposed to be black, but when I make them black, white still shows, and I didn't manage to fix it.
+
+## Deployment 
+
+- The site was deployed to GitHub Pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab. 
+  - From the source section drop-down menu, select the Master Branch.
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found [here](https://github.com/Pumpkinpoem/Dice/deployments).
+
+## Credits 
+
+- Help with cleaning and adjusting the code was done with ChatGPT.
+- Spelling and grammar fixes were done with ChatGPT and Lana Kohut.
+
+### Content 
+
+- The toggled nav hamburger button was taken from the Love Running course.
+- The Sign Up page was taken from the Love Running code course.
+- The footer section was taken from the Love Running course.
+- The icons were taken from [Font Awesome](https://fontawesome.com/).
+- The fonts used were taken from [Google Fonts](https://fonts.google.com): Noto Serif and Libre Baskerville.
+
+### Media
+
+- The photos used on the home and sign-up page are from Unsplash.
+- The favicons were taken from [Favicons.io](https://favicon.io/emoji-favicons/crossed-swords/).
