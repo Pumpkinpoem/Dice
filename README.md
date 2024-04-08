@@ -4,10 +4,6 @@ One Dice is a geek cafe where you can play tabletop games and drink amazing beve
 
 ![Responsive Mockup](assets/images/readme/Capture.PNG)
 
-## Features 
-
-In this section, you should go over the different parts of your project and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what they want to achieve, and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
