@@ -13,7 +13,7 @@ In this section, you should go over the different parts of your project and desc
 - __Navigation Bar__
 
   - Featured on both pages, the fully responsive navigation bar includes links to the Home page and Sign Up page. It is identical on each page to allow for easy navigation.
-  - This section allows users to navigate easily across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - This section allows users to navigate easily across all devices without having to revert back to the previous page via the back button. 
 
 ![Nav Bar](assets/images/readme/navbar.PNG)
 
@@ -26,7 +26,7 @@ In this section, you should go over the different parts of your project and desc
 
 - __Welcome Section__
 
-  - The footer section includes links to the relevant social media sites for One Dice. The links will open in a new tab to allow easy navigation for users.
+  - The Welcome section holds general information and motivates people to visit the cafe.
 
 ![Welcome](assets/images/readme/welcome.PNG)
 
