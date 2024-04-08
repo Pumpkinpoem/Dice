@@ -20,7 +20,7 @@ In this section, you should go over the different parts of your project and desc
 - __Landing Page Image__
 
   - The landing page includes a photograph with text overlay to allow users to see exactly which location this site would be applicable to. 
-  - This section introduces users to One Dice with an eye-catching animation to grab their attention.
+  - This section introduces users to One Dice with an eye-catching picture to grab their attention.
 
 ![Landing Page](assets/images/readme/landingpage.PNG)
 
