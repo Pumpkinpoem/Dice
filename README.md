@@ -1,84 +1,72 @@
 # One Dice
-[One dice](https://pumpkinpoem.github.io/Dice/index.html) 
- is a geek cafe where you can play tabletop games and drink amazing beverages. We strive to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
+[One Dice](https://pumpkinpoem.github.io/Dice/index.html) is a geek cafe where you can play tabletop games and enjoy amazing beverages. We aim to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
 
-![lighthouse results](assets/images/readme/lighthouse.PNG)
+![Lighthouse Results](assets/images/readme/lighthouse.PNG)
 
 ![Responsive Mockup](assets/images/readme/Capture.PNG)
 
-[Responsive mockup live link](https://ui.dev/amiresponsive?url=https://pumpkinpoem.github.io/Dice/index.html)
+[View Responsive Mockup Live](https://ui.dev/amiresponsive?url=https://pumpkinpoem.github.io/Dice/index.html)
 
-### Existing Features
+## Existing Features
 
-- __Navigation Bar__
+- **Navigation Bar:**
+  - Featured on all pages, the fully responsive navigation bar includes links to the Home page and Sign Up page. It is consistent across all pages to ensure easy navigation.
+  - This section enables users to navigate seamlessly across all devices without needing to rely on the back button.
 
-  - Featured on all pages, the fully responsive navigation bar includes links to the Home page and Sign Up page. It is identical on each page to allow for easy navigation.
-  - This section allows users to navigate easily across all devices without having to revert back to the previous page via the back button. 
+![Navigation Bar](assets/images/readme/navbar.PNG)
 
-![Nav Bar](assets/images/readme/navbar.PNG)
-
-- __Landing Page Image__
-
-  - The landing page includes a photograph with text overlay to allow users to see exactly which location this site would be applicable to. 
-  - This section introduces users to One Dice with an eye-catching picture to grab their attention.
+- **Landing Page Image:**
+  - The landing page includes a captivating photograph with text overlay, providing users with a clear idea of the cafe's ambiance.
+  - This section introduces users to One Dice with an attention-grabbing image.
 
 ![Landing Page](assets/images/readme/landingpage.PNG)
 
-- __Welcome Section__
+- **Welcome Section:**
+  - The Welcome section contains general information and motivates visitors to explore the cafe further.
 
-  - The Welcome section holds general information and motivates people to visit the cafe.
+![Welcome Section](assets/images/readme/welcome.PNG)
 
-![Welcome](assets/images/readme/welcome.PNG)
+- **Menu Section:**
+  - The menu section lists the available menu items, including drinks and snacks.
 
-- __menu section__
+![Menu Section](assets/images/readme/menu.PNG)
 
-  - The menu section holds the list of menu items that are available.
+- **Sign Up Page:**
+  - Allows users to sign up for One Dice's email list and choose a welcome gift from two options of dice sets.
 
-![Welcome](assets/images/readme/menu.PNG)
+![Sign Up Page](assets/images/readme/signup.PNG)
 
-- __Sign Up Page__
+- **Confirmation Page:**
+  - Displays a confirmation message when users successfully submit their information on the sign-up form.
 
-  - This page allows users to sign up for One Dice's email list. For first-time registration, users can choose one of two dice sets as a welcome gift.
+![Confirmation Page](assets/images/readme/confirmation.PNG)
 
-![Sign Up](assets/images/readme/signup.PNG)
+- **Footer:**
+  - The footer section includes links to One Dice's social media profiles, allowing users to connect with the cafe on various platforms.
 
-- __confirmation page__
+![Footer Section](assets/images/readme/footer.PNG)
 
-  - The confirmation page showes up when you have put in your information corectly in the sign up form.
+## Features Left to Implement
 
-![Welcome](assets/images/readme/confirmation.PNG)
-
-- __Footer__ 
-
-  - The footer section includes links to the relevant social media sites for One Dice. The links will open in a new tab to allow easy navigation for users. 
-
-![Footer](assets/images/readme/footer.PNG)
-
-### Features Left to Implement
-
-- Gallery page for live events and a quiz form for fun.
+- Gallery page for live events and a quiz form for entertainment.
 
 ## Testing 
 
-- Admin Tools: I used Admin tools to review the code and ensure that it was working as intended on both the test site and the deployed site.
-- Cross-Browser Compatibility Testing: I tested the code on various web browsers (e.g., Chrome, Firefox, Safari, Edge) to ensure compatibility and consistent performance across different platforms.
-- Responsive Design Testing: I checked the responsiveness of the website by testing it on different devices (desktop, tablet, mobile) to ensure proper rendering and usability across various screen sizes.
-- User Experience Testing: I conducted usability testing to evaluate the overall user experience, including navigation, interaction flow, and accessibility features.
+- Admin Tools: Reviewed the code using Admin Tools to ensure functionality on both the test site and deployed site.
+- Cross-Browser Compatibility Testing: Tested the code on various web browsers to ensure compatibility and consistent performance.
+- Responsive Design Testing: Checked the responsiveness of the website on different devices to ensure proper rendering and usability.
+- User Experience Testing: Conducted usability testing to evaluate navigation, interaction flow, and accessibility features.
 
+### Functional Testing
 
-### funktinal testing
-
-|  Action  | expected behavior | pass/fail     |
-| :---        |    :----:   |          ---: |
-| klick landing page     | load landing page       | pass   |
-| klick home nav icon   | load landing page        | pass      |
-| klick menu nav icon     | load menu page       | pass   |
-| klick signup nav icon  | load signup page        | pass      |
-| klick social media icons      | load social media in new tab       | pass   |
-| signup first name  | show requierd text       | pass    |
-| signup last name     | show requierd text      | pass  |
-| signup with no @   | show requierd text        | pass      |
-| signup with correct information     | load congratulation page       | pass   |
+| Action               | Expected Behavior                 | Pass/Fail |
+|----------------------|----------------------------------|-----------|
+| Click Landing Page   | Landing page loads                | Pass      |
+| Click Home Nav Icon  | Landing page loads                | Pass      |
+| Click Menu Nav Icon  | Menu page loads                   | Pass      |
+| Click Signup Nav Icon| Signup page loads                 | Pass      |
+| Click Social Icons   | Corresponding social media loads  | Pass      |
+| Signup with Valid Info| Confirmation page loads         | Pass      |
 
 
 
@@ -101,40 +89,28 @@
 
 ### Unfixed Bugs
 
-- The white lines on the Welcome section are supposed to be black, but when I make them black, white still shows, and I didn't manage to fix it.
+- The issue with white lines on the Welcome section remains unresolved. Attempts to fix it were unsuccessful.
 
 ## Deployment 
 
-- The site was deployed to GitHub Pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab. 
-  - From the source section drop-down menu, select the Master Branch.
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+- The site was deployed to GitHub Pages by selecting the Master Branch from the GitHub repository's Settings tab.
+- To clone the repository, use the command `git clone [repository_url]` in the command line.
 
-- to clone the rep you can following
-  -  go to repository
-  - klick code button
-  - local clone
-  - copy the choosen url
-  - open cmd (windows) 
-  - enter git clone and paste the url and hit enter
-
-The live link can be found [here](https://github.com/Pumpkinpoem/Dice/deployments).
+[Live Deployment Link](https://github.com/Pumpkinpoem/Dice/deployments)
 
 ## Credits 
 
-- Help with cleaning and adjusting the code was done with ChatGPT.
+- Code cleanup and adjustments were done with assistance from ChatGPT.
 - Spelling and grammar fixes were done with ChatGPT and Lana Kohut.
-- Readme Template taken from Code institute Readme Template.
+- Readme Template adapted from Code Institute's template.
 
 ### Content 
 
-- The toggled nav hamburger button was taken from the Love Running course.
-- The Sign Up page was taken from the Love Running code course.
-- The footer section was taken from the Love Running course.
-- The icons were taken from [Font Awesome](https://fontawesome.com/).
-- The fonts used were taken from [Google Fonts](https://fonts.google.com): Noto Serif and Libre Baskerville.
+- Navigation bar, Sign Up page, and footer sections were adapted from the Love Running course.
+- Icons sourced from [Font Awesome](https://fontawesome.com/).
+- Fonts used: Noto Serif and Libre Baskerville from [Google Fonts](https://fonts.google.com).
 
 ### Media
 
-- The photos used on the home and sign-up page are from Unsplash.
-- The favicons were taken from [Favicons.io](https://favicon.io/emoji-favicons/crossed-swords/).
+- Home and sign-up page photos sourced from Unsplash.
+- Favicons obtained from [Favicons.io](https://favicon.io/emoji-favicons/crossed-swords/).
