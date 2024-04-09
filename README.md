@@ -1,6 +1,6 @@
 # One Dice
-
-One Dice is a geek cafe where you can play tabletop games and drink amazing beverages. We strive to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
+[One dice](https://github.com/Pumpkinpoem/Dice/deployments) 
+ is a geek cafe where you can play tabletop games and drink amazing beverages. We strive to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
 
 ![Responsive Mockup](assets/images/readme/Capture.PNG)
 
@@ -51,8 +51,10 @@ One Dice is a geek cafe where you can play tabletop games and drink amazing beve
 
 ### Validator Testing 
 
-- HTML:
-  - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2Fsignup.html).
+- HTML: index
+  - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2F).
+  - HTML: menu
+  - No errors were found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2Fmenu.html).
 - CSS:
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Fpumpkinpoem.github.io%2FDice%2Findex.html&usermedium=all&vextwarning=&warning=1).
 
