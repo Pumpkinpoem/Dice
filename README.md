@@ -1,5 +1,5 @@
 # One Dice
-[One dice](https://github.com/Pumpkinpoem/Dice/deployments) 
+[One dice](https://pumpkinpoem.github.io/Dice/index.html) 
  is a geek cafe where you can play tabletop games and drink amazing beverages. We strive to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
 
 ![Responsive Mockup](assets/images/readme/Capture.PNG)
