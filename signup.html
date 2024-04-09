@@ -1,43 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Geeky game cafe, cafe in Rijeka, Croatia">
     <meta name="keywords" content="Game, Cafe, coffee, after school, club, role-playing Game">
     <title>One Dice Game Cafe</title>
+
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Header section -->
     <header>
+        <!-- Logo -->
         <a href="index.html">
             <h1 id="logo">One Dice</h1>
         </a>
+        <!-- Navigation toggle -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fas fa-bars"></i>
         </label>
+        <!-- Navigation links -->
         <nav>
             <ul id="menu">
-                <li><a class="active bold" href="index.html">Home</a></li>
+                <li><a href="index.html" class="bold">Home</a></li>
+                <li><a href="menu.html" class="bold">Menu</a></li>
                 <li><a href="signup.html" class="bold">Sign Up</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Main content -->
     <main>
+        <!-- Signup section -->
         <section id="signup">
-            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="signup-form" method="show" action="confirmation.html">
                 <h2>Sign Up for Our Newsletter and Get a Free Gift! <i class="fas fa-dice-d20"></i></h2>
+                <!-- First Name -->
                 <label for="first-name" class="bold">First Name</label>
                 <input type="text" name="first_name" id="first-name" class="text-input" required><br>
+                <!-- Last Name -->
                 <label for="last-name" class="bold">Last Name</label>
                 <input type="text" name="last_name" id="last-name" class="text-input" required><br>
+                <!-- Email Address -->
                 <label for="email-address" class="bold">Email Address</label>
                 <input type="email" name="email_address" id="email-address" class="text-input" required><br>
+                <!-- Choose Welcome Gift -->
                 <div class="radio-buttons">
                     <div><h2>Choose Welcome Gift!</h2></div>
                     <div>
@@ -49,11 +66,15 @@
                         <input type="radio" name="sign-up-gift" id="gift2" value="random-miniature" required>
                     </div>
                 </div>
+                <!-- Join button -->
                 <button type="submit" class="join-button">Join</button>
             </form>
         </section>
     </main>
+
+    <!-- Footer section -->
     <footer>
+        <!-- Social networks -->
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></li>
             <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-square-x-twitter"></i></a></li>
@@ -61,6 +82,8 @@
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </footer>
+
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -21,7 +21,7 @@ h1, h2, h3, p {
     font-family: 'Libre Baskerville', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #3a3a3a; /* Adjusted to match surrounding color */
+    color: #3a3a3a;
 }
 
 p {
@@ -61,7 +61,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a; /* Adjusted to match surrounding color */
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -103,7 +103,7 @@ main {
         max-width: 600px;
         padding: 20px;
         border-radius: 5px;
-        margin: 0 auto; /* Center horizontally */
+        margin: 0 auto; 
         list-style-type: none;
         margin-bottom: 10px;
 }
