@@ -99,6 +99,16 @@ main {
     width: 100%;
 }
 
+.menu {
+        max-width: 600px;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 0 auto; /* Center horizontally */
+        list-style-type: none;
+        margin-bottom: 10px;
+}
+
+
 /* Hero section */
 #hero {
     height: 600px;

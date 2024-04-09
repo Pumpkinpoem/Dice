@@ -74,6 +74,7 @@ The live link can be found [here](https://github.com/Pumpkinpoem/Dice/deployment
 
 - Help with cleaning and adjusting the code was done with ChatGPT.
 - Spelling and grammar fixes were done with ChatGPT and Lana Kohut.
+- Readme Template taken from Code institute Readme Template.
 
 ### Content 
 
