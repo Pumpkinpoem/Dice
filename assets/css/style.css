@@ -113,7 +113,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/fox-hyde-XgPf6yNdppI-unsplash.jpg") no-repeat center center/cover;
+    background: url("../images/fox-hyde-XgPf6yNdppI-unsplash.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -162,7 +162,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("../images/gian-luca-riner-eubgK-4bzKA-unsplash.jpg");
+    background-image: url("../images/gian-luca-riner-eubgK-4bzKA-unsplash.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;

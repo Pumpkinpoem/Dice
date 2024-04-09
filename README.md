@@ -1,11 +1,9 @@
 # One Dice
 [One Dice](https://pumpkinpoem.github.io/Dice/index.html) is a geek cafe where you can play tabletop games and enjoy amazing beverages. We aim to create a cozy atmosphere and great vibes. You can bring your own games or borrow laminated copies from the staff. We also host movie nights and livestream Critical Role every Monday.
 
-![Lighthouse Results](assets/images/readme/lighthouse.PNG)
 
 ![Responsive Mockup](assets/images/readme/Capture.PNG)
 
-[View Responsive Mockup Live](https://ui.dev/amiresponsive?url=https://pumpkinpoem.github.io/Dice/index.html)
 
 ## Existing Features
 
@@ -69,6 +67,9 @@
 | Signup with Valid Info| Confirmation page loads         | Pass      |
 
 
+### Lighthouse Testing 
+- index.html
+![Lighthouse Results](assets/images/readme/lighthouse.PNG)
 
 ### Validator Testing 
 
@@ -94,6 +95,10 @@
 ## Deployment 
 
 - The site was deployed to GitHub Pages by selecting the Master Branch from the GitHub repository's Settings tab.
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 - To clone the repository, use the command `git clone [repository_url]` in the command line.
 
 [Live Deployment Link](https://github.com/Pumpkinpoem/Dice/deployments)
